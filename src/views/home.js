@@ -127,7 +127,7 @@ const Home = (props) => {
       <section className="home-statistics">
         <div className="home-content">
           <div className="home-stat">
-            <h3 className="home-header1">5+</h3>
+            <h3 className="home-header1">6+</h3>
             <span className="home-caption2">Projects</span>
           </div>
           <div className="home-stat1">
