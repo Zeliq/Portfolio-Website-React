@@ -10,11 +10,11 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Togthr template</title>
+        <title>Zeliq Zayyan</title>
         <meta property="og:title" content="Togthr template" />
       </Helmet>
       <section className="home-hero">
-        <video
+        {/* <video
           src="https://presentation-website-assets.teleporthq.io/templates/togthr/togthr-video.mp4"
           loop
           muted
@@ -23,7 +23,8 @@ const Home = (props) => {
           autoPlay
           playsInline
           className="home-video"
-        ></video>
+        ></video> */}
+        <img src="/hero-bg.png" className='home-video'/>
         <header data-thq="thq-navbar" className="home-navbar">
           <img alt="image" src="/logo-200h.png" className="home-branding" />
           <div data-thq="thq-burger-menu" className="home-burger-menu"></div>
